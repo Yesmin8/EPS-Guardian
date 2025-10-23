@@ -1,0 +1,37 @@
+{
+  "test_name": "summary_normal",
+  "timestamp": "2025-10-23T18:35:38.871987",
+  "message_sent": {
+    "message_type": "SUMMARY",
+    "message_id": 5862,
+    "rule_triggered": "R4"
+  },
+  "response_received": {
+    "timestamp": "2025-10-23T18:35:38.854285Z",
+    "original_message_id": 5862,
+    "original_type": "UNKNOWN",
+    "ai_analysis": {
+      "ai_score": 0.3334318796520673,
+      "ai_level": "NORMAL",
+      "confidence": "HIGH",
+      "reconstruction_error": 0.3334318796520673,
+      "thresholds_used": {
+        "normal": 0.6091226281233376,
+        "warning": 0.8377888951216337,
+        "critical": 1.0664551621199299
+      },
+      "simulated": false,
+      "model_used": "LSTM Autoencoder"
+    },
+    "decision": "IGNORE",
+    "action": "NONE",
+    "confidence": "HIGH",
+    "notes": "Aucune anomalie detectee par IA OBC"
+  },
+  "test_summary": {
+    "decision": "IGNORE",
+    "action": "NONE",
+    "ai_level": "NORMAL",
+    "ai_score": 0.3334318796520673
+  }
+}

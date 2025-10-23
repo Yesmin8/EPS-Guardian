@@ -1,0 +1,35 @@
+{
+  "report_timestamp": "2025-10-22T18:38:05.632722",
+  "system_overview": {
+    "total_samples": 5963,
+    "data_quality": "EXCELLENT",
+    "physical_consistency": "VALIDATED"
+  },
+  "performance_metrics": {
+    "battery_health_score": 80.3,
+    "solar_efficiency_score": 0.346,
+    "system_stability_score": 79.0,
+    "converter_efficiency": 0.767,
+    "physical_consistency_score": 95
+  },
+  "anomaly_report": {
+    "total_anomalies": 963,
+    "critical_anomalies": 333,
+    "anomaly_distribution": {
+      "normal": 5000,
+      "batt_overheat": 135,
+      "batt_undervoltage": 120,
+      "solar_fault": 100,
+      "batt_overvoltage": 96,
+      "converter_failure": 80,
+      "batt_overcurrent": 78,
+      "eps_overheat": 70,
+      "battery_degradation": 64,
+      "progressive_overheat": 60,
+      "oscillation_coupled": 50,
+      "sensor_fault": 50,
+      "solar_partial_failure": 40,
+      "unknown_pattern": 20
+    }
+  }
+}

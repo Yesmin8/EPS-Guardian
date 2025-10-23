@@ -1,0 +1,42 @@
+{
+  "test_name": "structured_response",
+  "timestamp": "2025-10-23T18:35:39.140169",
+  "message_sent": {
+    "message_type": "ALERT_CRITICAL",
+    "message_id": 6932,
+    "rule_triggered": "R1"
+  },
+  "response_received": {
+    "header": {
+      "message_id": 1,
+      "timestamp": "2025-10-23T17:35:39.128393Z",
+      "source": "OBC",
+      "message_type": "RESPONSE",
+      "priority": "HIGH",
+      "version": "1.0"
+    },
+    "payload": {
+      "original_message": {
+        "id": 6932,
+        "type": null,
+        "timestamp": "2025-10-23T17:35:38.884172Z"
+      },
+      "obc_analysis": {
+        "ai_score": 6.151186872649319,
+        "ai_level": "CRITICAL",
+        "confidence": "HIGH",
+        "reconstruction_error": 6.151186872649319
+      },
+      "decision": "CONFIRM",
+      "action": "ISOLATE_BATTERY",
+      "notes": "Anomalie critique confirmee par IA OBC",
+      "timestamp_obc": "2025-10-23T17:35:39.128393Z"
+    }
+  },
+  "test_summary": {
+    "decision": null,
+    "action": null,
+    "ai_level": null,
+    "ai_score": null
+  }
+}

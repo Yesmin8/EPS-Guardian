@@ -1,0 +1,37 @@
+{
+  "system_id": "OBC_20251023_180605",
+  "timestamp": "2025-10-23T18:06:06.415113",
+  "processed_count": 1,
+  "response": {
+    "header": {
+      "message_id": 1,
+      "timestamp": "2025-10-23T17:06:06.408405Z",
+      "source": "OBC",
+      "message_type": "RESPONSE",
+      "priority": "LOW",
+      "version": "1.0"
+    },
+    "payload": {
+      "original_message": {
+        "id": 6105,
+        "type": null,
+        "timestamp": "2025-10-23T17:06:05.895030Z"
+      },
+      "obc_analysis": {
+        "ai_score": 0.31347054763459437,
+        "ai_level": "NORMAL",
+        "confidence": "HIGH",
+        "reconstruction_error": 0.31347054763459437
+      },
+      "decision": "IGNORE",
+      "action": "NONE",
+      "notes": "Aucune anomalie detectee par IA OBC",
+      "timestamp_obc": "2025-10-23T17:06:06.408405Z"
+    }
+  },
+  "original_message_summary": {
+    "message_id": 6105,
+    "message_type": "SUMMARY",
+    "source": "EPS_MCU"
+  }
+}

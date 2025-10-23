@@ -1,0 +1,9 @@
+{
+  "thresholds": {
+    "normal": 0.6091226281233376,
+    "warning": 0.8377888951216337,
+    "critical": 1.0664551621199299
+  },
+  "conversion_date": "2025-10-23T17:08:49.532881",
+  "source_model": "LSTM Autoencoder Complexe"
+}

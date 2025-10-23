@@ -1,0 +1,37 @@
+2025-10-23 18:35:35,423 - INFO - Initialisation de l'IA OBC
+2025-10-23 18:35:35,427 - INFO - Logs: D:\Challenge AESS&IES\data\obc\logs
+2025-10-23 18:35:35,428 - INFO - Outputs: D:\Challenge AESS&IES\data\obc\outputs
+2025-10-23 18:35:35,429 - INFO - Recherche des seuils: D:\Challenge AESS&IES\data\ai_models\model_complex\ai_thresholds.json
+2025-10-23 18:35:35,431 - INFO - Seuils d'anomalie charges
+2025-10-23 18:35:38,257 - INFO - Modele LSTM Autoencoder charge avec succes (compile=False)
+2025-10-23 18:35:38,268 - INFO - Scaler charge
+2025-10-23 18:35:38,271 - INFO - IA OBC initialisee avec succes
+2025-10-23 18:35:38,276 - INFO - Initialisation du gestionnaire de messages OBC
+2025-10-23 18:35:38,278 - INFO - Initialisation du générateur de réponses OBC
+2025-10-23 18:35:38,280 - INFO - Lancement test OBC - Type: all
+2025-10-23 18:35:38,283 - INFO - DEBUT TEST SYSTÈME OBC
+2025-10-23 18:35:38,293 - INFO - Initialisation du gestionnaire de messages OBC
+2025-10-23 18:35:38,294 - INFO - Initialisation du générateur de réponses OBC
+2025-10-23 18:35:38,297 - INFO - Test 1: Message SUMMARY normal
+2025-10-23 18:35:38,305 - INFO - Message recu: UNKNOWN
+2025-10-23 18:35:38,843 - INFO - Analyse IA LSTM - Score: 0.333432, Niveau: NORMAL
+2025-10-23 18:35:38,849 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183538.json
+2025-10-23 18:35:38,854 - INFO - Reponse generee: IGNORE
+2025-10-23 18:35:38,873 - INFO - Resultat test sauvegarde: obc_test_summary_normal_20251023_183538.json
+2025-10-23 18:35:38,882 - INFO - Test 2: Message ALERT_CRITICAL avec anomalie
+2025-10-23 18:35:38,884 - INFO - Message recu: UNKNOWN
+2025-10-23 18:35:38,977 - INFO - Analyse IA LSTM - Score: 6.151187, Niveau: CRITICAL
+2025-10-23 18:35:38,980 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183538.json
+2025-10-23 18:35:38,982 - INFO - Reponse generee: CONFIRM
+2025-10-23 18:35:38,999 - INFO - Resultat test sauvegarde: obc_test_critical_anomaly_20251023_183538.json
+2025-10-23 18:35:39,008 - INFO - Test 3: Message sans données temporelles
+2025-10-23 18:35:39,012 - INFO - Message recu: UNKNOWN
+2025-10-23 18:35:39,024 - INFO - Resultat test sauvegarde: obc_test_no_temporal_data_20251023_183539.json
+2025-10-23 18:35:39,033 - INFO - Test 4: Génération réponse structurée
+2025-10-23 18:35:39,035 - INFO - Message recu: UNKNOWN
+2025-10-23 18:35:39,121 - INFO - Analyse IA LSTM - Score: 6.151187, Niveau: CRITICAL
+2025-10-23 18:35:39,124 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183539.json
+2025-10-23 18:35:39,127 - INFO - Reponse generee: CONFIRM
+2025-10-23 18:35:39,128 - INFO - Réponse #1 générée: CONFIRM
+2025-10-23 18:35:39,142 - INFO - Resultat test sauvegarde: obc_test_structured_response_20251023_183539.json
+2025-10-23 18:35:39,156 - INFO - TEST SYSTÈME OBC TERMINE AVEC SUCCES

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-10-23T16:08:41.211825",
+  "total_cycles": 50,
+  "decisions": {
+    "NORMAL": 0,
+    "WARNING": 0,
+    "CRITICAL": 50,
+    "agreement": 0,
+    "ai_dominant": 0,
+    "rules_dominant": 0,
+    "fusion": 0
+  },
+  "ai_thresholds": {
+    "normal": 0.35,
+    "warning": 0.55,
+    "critical": 0.75
+  }
+}

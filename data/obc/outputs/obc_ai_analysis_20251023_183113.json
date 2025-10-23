@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-23T18:31:13.907358",
+  "analysis_result": {
+    "ai_score": 1653.0413289968517,
+    "ai_level": "CRITICAL",
+    "confidence": "HIGH",
+    "reconstruction_error": 1653.0413289968517,
+    "thresholds_used": {
+      "normal": 0.6091226281233376,
+      "warning": 0.8377888951216337,
+      "critical": 1.0664551621199299
+    },
+    "simulated": false,
+    "model_used": "LSTM Autoencoder"
+  },
+  "sequence_info": {
+    "shape": [
+      30,
+      7
+    ],
+    "data_points": 30
+  }
+}

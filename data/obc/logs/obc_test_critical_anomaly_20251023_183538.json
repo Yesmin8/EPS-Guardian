@@ -1,0 +1,37 @@
+{
+  "test_name": "critical_anomaly",
+  "timestamp": "2025-10-23T18:35:38.998644",
+  "message_sent": {
+    "message_type": "ALERT_CRITICAL",
+    "message_id": 6932,
+    "rule_triggered": "R1"
+  },
+  "response_received": {
+    "timestamp": "2025-10-23T18:35:38.982526Z",
+    "original_message_id": 6932,
+    "original_type": "UNKNOWN",
+    "ai_analysis": {
+      "ai_score": 6.151186872649319,
+      "ai_level": "CRITICAL",
+      "confidence": "HIGH",
+      "reconstruction_error": 6.151186872649319,
+      "thresholds_used": {
+        "normal": 0.6091226281233376,
+        "warning": 0.8377888951216337,
+        "critical": 1.0664551621199299
+      },
+      "simulated": false,
+      "model_used": "LSTM Autoencoder"
+    },
+    "decision": "CONFIRM",
+    "action": "ISOLATE_BATTERY",
+    "confidence": "HIGH",
+    "notes": "Anomalie critique confirmee par IA OBC"
+  },
+  "test_summary": {
+    "decision": "CONFIRM",
+    "action": "ISOLATE_BATTERY",
+    "ai_level": "CRITICAL",
+    "ai_score": 6.151186872649319
+  }
+}

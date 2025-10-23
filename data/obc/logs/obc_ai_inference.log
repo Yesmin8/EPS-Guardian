@@ -1,0 +1,70 @@
+2025-10-23 18:06:02,654 - INFO - Initialisation de l'IA OBC
+2025-10-23 18:06:02,659 - INFO - Logs: D:\Challenge AESS&IES\data\obc\logs
+2025-10-23 18:06:02,663 - INFO - Outputs: D:\Challenge AESS&IES\data\obc\outputs
+2025-10-23 18:06:02,668 - INFO - Recherche des seuils: D:\Challenge AESS&IES\data\ai_models\model_complex\ai_thresholds.json
+2025-10-23 18:06:02,672 - INFO - Seuils d'anomalie charges
+2025-10-23 18:06:05,821 - INFO - Modele LSTM Autoencoder charge avec succes (compile=False)
+2025-10-23 18:06:05,835 - INFO - Scaler charge
+2025-10-23 18:06:05,838 - INFO - IA OBC initialisee avec succes
+2025-10-23 18:06:05,845 - INFO - Initialisation du gestionnaire de messages OBC
+2025-10-23 18:06:05,850 - INFO - Initialisation du générateur de réponses OBC
+2025-10-23 18:06:05,858 - INFO - Initialisation du gestionnaire de messages OBC
+2025-10-23 18:06:05,861 - INFO - Initialisation du générateur de réponses OBC
+2025-10-23 18:06:05,864 - INFO - Systeme OBC initialise avec succes
+2025-10-23 18:06:05,866 - INFO - Repertoire logs: D:\Challenge AESS&IES\data\obc\logs
+2025-10-23 18:06:05,869 - INFO - Repertoire outputs: D:\Challenge AESS&IES\data\obc\outputs
+2025-10-23 18:06:05,871 - INFO - Statut IA: LOADED
+2025-10-23 18:06:05,874 - INFO - Initialisation du gestionnaire de messages OBC
+2025-10-23 18:06:05,877 - INFO - Initialisation du générateur de réponses OBC
+2025-10-23 18:06:05,880 - INFO - Systeme OBC initialise avec succes
+2025-10-23 18:06:05,882 - INFO - Repertoire logs: D:\Challenge AESS&IES\data\obc\logs
+2025-10-23 18:06:05,884 - INFO - Repertoire outputs: D:\Challenge AESS&IES\data\obc\outputs
+2025-10-23 18:06:05,886 - INFO - Statut IA: LOADED
+2025-10-23 18:06:05,901 - WARNING - Systeme OBC non demarre - Demarrage automatique
+2025-10-23 18:06:05,904 - INFO - DEMARRAGE SYSTÈME OBC
+2025-10-23 18:06:05,906 - INFO - System ID: OBC_20251023_180605
+2025-10-23 18:06:05,908 - INFO - Heure debut: 2025-10-23 18:06:05.904900
+2025-10-23 18:06:05,911 - INFO - Statut IA: LOADED
+2025-10-23 18:06:05,913 - INFO - En attente de messages MCU...
+2025-10-23 18:06:05,915 - INFO - Message recu: UNKNOWN
+2025-10-23 18:06:06,399 - INFO - Analyse IA LSTM - Score: 0.313471, Niveau: NORMAL
+2025-10-23 18:06:06,403 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_180606.json
+2025-10-23 18:06:06,405 - INFO - Reponse generee: IGNORE
+2025-10-23 18:06:06,408 - INFO - Réponse #1 générée: IGNORE
+2025-10-23 18:06:06,411 - INFO - Message #1 traite - Decision: IGNORE
+2025-10-23 18:30:46,489 - INFO - Initialisation de l'IA OBC
+2025-10-23 18:30:46,496 - INFO - Logs: D:\Challenge AESS&IES\data\obc\logs
+2025-10-23 18:30:46,500 - INFO - Outputs: D:\Challenge AESS&IES\data\obc\outputs
+2025-10-23 18:30:46,502 - INFO - Recherche des seuils: D:\Challenge AESS&IES\data\ai_models\model_complex\ai_thresholds.json
+2025-10-23 18:30:46,507 - INFO - Seuils d'anomalie charges
+2025-10-23 18:30:49,512 - INFO - Modele LSTM Autoencoder charge avec succes (compile=False)
+2025-10-23 18:30:49,525 - INFO - Scaler charge
+2025-10-23 18:30:49,528 - INFO - IA OBC initialisee avec succes
+2025-10-23 18:30:49,537 - INFO - Initialisation du gestionnaire de messages OBC
+2025-10-23 18:30:49,542 - INFO - Initialisation du générateur de réponses OBC
+2025-10-23 18:31:00,637 - INFO - Initialisation du gestionnaire de messages OBC
+2025-10-23 18:31:00,640 - INFO - Initialisation du générateur de réponses OBC
+2025-10-23 18:31:00,680 - INFO - Message recu: UNKNOWN
+2025-10-23 18:31:01,226 - INFO - Analyse IA LSTM - Score: 0.289467, Niveau: NORMAL
+2025-10-23 18:31:01,230 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183101.json
+2025-10-23 18:31:01,233 - INFO - Reponse generee: IGNORE
+2025-10-23 18:31:04,339 - INFO - Message recu: UNKNOWN
+2025-10-23 18:31:04,430 - INFO - Analyse IA LSTM - Score: 12.983121, Niveau: CRITICAL
+2025-10-23 18:31:04,433 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183104.json
+2025-10-23 18:31:04,435 - INFO - Reponse generee: CONFIRM
+2025-10-23 18:31:07,475 - INFO - Message recu: UNKNOWN
+2025-10-23 18:31:07,565 - INFO - Analyse IA LSTM - Score: 0.535827, Niveau: NORMAL
+2025-10-23 18:31:07,569 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183107.json
+2025-10-23 18:31:07,571 - INFO - Reponse generee: IGNORE
+2025-10-23 18:31:10,624 - INFO - Message recu: UNKNOWN
+2025-10-23 18:31:10,714 - INFO - Analyse IA LSTM - Score: 12073.025873, Niveau: CRITICAL
+2025-10-23 18:31:10,717 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183110.json
+2025-10-23 18:31:10,721 - INFO - Reponse generee: CONFIRM
+2025-10-23 18:31:13,815 - INFO - Message recu: UNKNOWN
+2025-10-23 18:31:13,904 - INFO - Analyse IA LSTM - Score: 1653.041329, Niveau: CRITICAL
+2025-10-23 18:31:13,909 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183113.json
+2025-10-23 18:31:13,911 - INFO - Reponse generee: CONFIRM
+2025-10-23 18:31:16,961 - INFO - Message recu: UNKNOWN
+2025-10-23 18:31:17,110 - INFO - Analyse IA LSTM - Score: 0.301149, Niveau: NORMAL
+2025-10-23 18:31:17,115 - INFO - Resultat sauvegarde: D:\Challenge AESS&IES\data\obc\outputs\obc_ai_analysis_20251023_183117.json
+2025-10-23 18:31:17,121 - INFO - Reponse generee: IGNORE

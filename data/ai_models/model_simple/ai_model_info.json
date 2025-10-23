@@ -1,0 +1,49 @@
+{
+  "model_name": "EPS_Guardian_Autoencoder",
+  "version": "1.0.0",
+  "creation_date": "2025-10-23T14:54:34.044426",
+  "architecture": {
+    "input_dim": 18,
+    "encoder_layers": [
+      8,
+      4,
+      2
+    ],
+    "decoder_layers": [
+      4,
+      8,
+      18
+    ],
+    "total_parameters": 412
+  },
+  "training_config": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss_function": "mse",
+    "metrics": [
+      "mae"
+    ]
+  },
+  "features_used": [
+    "V_batt",
+    "I_batt",
+    "T_batt",
+    "V_bus",
+    "I_bus",
+    "V_solar",
+    "I_solar",
+    "SOC",
+    "T_eps",
+    "P_batt",
+    "P_solar",
+    "P_bus",
+    "converter_ratio",
+    "delta_V_batt",
+    "delta_I_batt",
+    "delta_T_batt",
+    "rolling_std_V_batt",
+    "rolling_mean_V_batt"
+  ],
+  "model_size_kb": 5.546875,
+  "esp32_compatible": true
+}

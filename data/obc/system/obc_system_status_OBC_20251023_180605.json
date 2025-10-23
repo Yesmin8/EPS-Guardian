@@ -1,0 +1,44 @@
+{
+  "system_id": "OBC_20251023_180605",
+  "is_running": true,
+  "ai_loaded": true,
+  "ai_status": "LOADED",
+  "processed_messages": 0,
+  "start_time": "2025-10-23T18:06:05.904900",
+  "current_time": "2025-10-23T18:06:05.915364",
+  "directories": {
+    "logs": "D:\\Challenge AESS&IES\\data\\obc\\logs",
+    "outputs": "D:\\Challenge AESS&IES\\data\\obc\\outputs",
+    "system": "D:\\Challenge AESS&IES\\data\\obc\\system"
+  },
+  "ai_model_info": {
+    "status": "LOADED",
+    "model_architecture": "LSTM Autoencoder",
+    "input_shape": [
+      30,
+      7
+    ],
+    "thresholds": {
+      "normal_threshold": 0.6091226281233376,
+      "warning_threshold": 0.8377888951216337,
+      "critical_threshold": 1.0664551621199299,
+      "training_stats": {
+        "mean_error": 0.38045636112504155,
+        "std_error": 0.22866626699829606,
+        "min_error": 0.03640969871822971,
+        "max_error": 1.1844010416516693,
+        "training_samples": 949
+      }
+    },
+    "training_stats": {
+      "mean_error": 0.38045636112504155,
+      "std_error": 0.22866626699829606,
+      "min_error": 0.03640969871822971,
+      "max_error": 1.1844010416516693,
+      "training_samples": 949
+    },
+    "scaler_available": true,
+    "model_available": true,
+    "simulation_mode": false
+  }
+}

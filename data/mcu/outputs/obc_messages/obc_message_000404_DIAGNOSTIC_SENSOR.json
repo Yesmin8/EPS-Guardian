@@ -1,0 +1,27 @@
+{
+  "header": {
+    "message_id": 404,
+    "timestamp": "2025-10-23T14:45:34.547588Z",
+    "source": "EPS_MCU",
+    "message_type": "DIAGNOSTIC_SENSOR",
+    "priority": "MEDIUM",
+    "version": "1.0"
+  },
+  "payload": {
+    "rule_triggered": null,
+    "values": {},
+    "sensor_faults": [
+      "V_batt_NaN",
+      "SOC_NaN",
+      "P_batt_NaN",
+      "charge_efficiency_NaN",
+      "V_batt_V_bus_ratio_NaN",
+      "power_balance_NaN",
+      "V_batt_out_of_range"
+    ],
+    "actions_taken": [
+      "LED_YELLOW",
+      "INCREASE_LOGGING"
+    ]
+  }
+}

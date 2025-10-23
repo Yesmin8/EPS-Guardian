@@ -1,0 +1,60 @@
+2025-10-23 16:51:14,118 - INFO - Repertoire racine detecte: D:\Challenge AESS&IES
+2025-10-23 16:51:14,129 - INFO - Dossier donnees: D:\Challenge AESS&IES\data\ai_training_base
+2025-10-23 16:51:14,132 - INFO - Dossier OBC AI: D:\Challenge AESS&IES\data\ai_models\model_complex
+2025-10-23 16:51:14,133 - INFO - ============================================================
+2025-10-23 16:51:14,134 - INFO - SYSTEME D'ENTRAINEMENT IA OBC - EPS GUARDIAN
+2025-10-23 16:51:14,136 - INFO - ============================================================
+2025-10-23 16:51:14,137 - INFO - Initialisation de l'entraineur IA OBC
+2025-10-23 16:51:14,138 - INFO - DEMARRAGE PIPELINE D'ENTRAINEMENT OBC IA
+2025-10-23 16:51:14,139 - INFO - ETAPE: Chargement des donnees
+2025-10-23 16:51:14,140 - INFO - Chargement des donnees d'entrainement...
+2025-10-23 16:51:14,142 - INFO - Fichiers trouves dans D:\Challenge AESS&IES\data\ai_training_base: ['ai_features_scaler.pkl', 'ai_sequence_data.npy', 'ai_sequence_features.npy', 'ai_sequence_labels.npy', 'ai_sequence_scaler.pkl']
+2025-10-23 16:51:14,154 - INFO - Sequences chargees: (1187, 30, 7)
+2025-10-23 16:51:14,166 - INFO - Labels charges: 1187
+2025-10-23 16:51:14,168 - INFO - Distribution des labels:
+2025-10-23 16:51:14,169 - INFO -   CRITICAL: 419 sequences (35.3%)
+2025-10-23 16:51:14,171 - INFO -   WARNING: 768 sequences (64.7%)
+2025-10-23 16:51:14,191 - INFO - Scaler charge
+2025-10-23 16:51:14,192 - WARNING - Configuration du dataset non trouvee
+2025-10-23 16:51:14,195 - INFO - ETAPE TERMINEE: Chargement des donnees
+2025-10-23 16:51:14,196 - INFO - ETAPE: Preparation des donnees
+2025-10-23 16:51:14,197 - INFO - Preparation des donnees...
+2025-10-23 16:51:14,198 - WARNING - Aucune sequence NORMAL trouvee, utilisation de toutes les donnees
+2025-10-23 16:51:14,200 - INFO - Sequences d'entrainement (normales): (1187, 30, 7)
+2025-10-23 16:51:14,201 - INFO - Train: (949, 30, 7), Validation: (238, 30, 7)
+2025-10-23 16:51:14,202 - INFO - ETAPE TERMINEE: Preparation des donnees
+2025-10-23 16:51:14,203 - INFO - ETAPE: Construction du modele
+2025-10-23 16:51:14,205 - INFO - Construction du modele LSTM Autoencoder...
+2025-10-23 16:51:14,210 - INFO - Architecture: 30 timesteps x 7 features
+2025-10-23 16:51:14,212 - INFO - Dimension latente: 32
+2025-10-23 16:51:14,315 - INFO - Modele compile avec succes
+2025-10-23 16:51:14,330 - INFO - Nombre total de parametres: 65,511
+2025-10-23 16:51:14,336 - INFO - ETAPE TERMINEE: Construction du modele
+2025-10-23 16:51:14,338 - INFO - ETAPE: Entrainement
+2025-10-23 16:51:14,342 - INFO - Debut de l'entrainement...
+2025-10-23 16:51:14,344 - INFO - Parametres d'entrainement: 50 epochs, batch_size=32
+2025-10-23 16:52:00,983 - INFO - Entrainement termine apres 50 epochs
+2025-10-23 16:52:00,988 - INFO - Loss finale - Train: 0.382979, Validation: 0.377985
+2025-10-23 16:52:00,993 - INFO - ETAPE TERMINEE: Entrainement
+2025-10-23 16:52:00,998 - INFO - ETAPE: Calcul des seuils
+2025-10-23 16:52:01,003 - INFO - Calcul des seuils d'anomalie...
+2025-10-23 16:52:01,008 - INFO - Calcul des erreurs de reconstruction...
+2025-10-23 16:52:01,990 - INFO - Statistiques des erreurs - Mean: 0.380456, Std: 0.228666
+2025-10-23 16:52:02,025 - INFO - Plage des erreurs - Min: 0.036410, Max: 1.184401
+2025-10-23 16:52:02,033 - INFO - Seuils calcules:
+2025-10-23 16:52:02,036 - INFO -   NORMAL  < 0.609123
+2025-10-23 16:52:02,038 - INFO -   WARNING < 0.837789
+2025-10-23 16:52:02,041 - INFO -   CRITICAL >= 1.066455
+2025-10-23 16:52:02,044 - INFO - ETAPE TERMINEE: Calcul des seuils
+2025-10-23 16:52:02,046 - INFO - ETAPE: Sauvegarde
+2025-10-23 16:52:02,048 - INFO - Sauvegarde du modele et des seuils...
+2025-10-23 16:52:02,053 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-23 16:52:02,079 - INFO - Modele sauvegarde: D:\Challenge AESS&IES\data\ai_models\model_complex\ai_model_lstm_autoencoder.h5
+2025-10-23 16:52:02,083 - INFO - Seuils sauvegardes: D:\Challenge AESS&IES\data\ai_models\model_complex\ai_thresholds.json
+2025-10-23 16:52:02,089 - INFO - ETAPE TERMINEE: Sauvegarde
+2025-10-23 16:52:02,092 - INFO - ETAPE: Generation rapport
+2025-10-23 16:52:02,095 - INFO - Generation du rapport d'entrainement...
+2025-10-23 16:52:02,883 - INFO - Rapport d'entrainement genere: D:\Challenge AESS&IES\data\mcu\logs\training_report.png
+2025-10-23 16:52:02,887 - INFO - ETAPE TERMINEE: Generation rapport
+2025-10-23 16:52:02,893 - INFO - PIPELINE D'ENTRAINEMENT TERMINE AVEC SUCCES
+2025-10-23 16:52:02,896 - INFO - ENTRAINEMENT REUSSI - Le modele OBC est pret!

@@ -1,0 +1,22 @@
+{
+  "test_name": "no_temporal_data",
+  "timestamp": "2025-10-23T18:35:39.023362",
+  "message_sent": {
+    "message_type": "SUMMARY",
+    "message_id": 4582,
+    "rule_triggered": "R4"
+  },
+  "response_received": {
+    "timestamp": "2025-10-23T18:35:39.015380Z",
+    "decision": "ERROR",
+    "action": "NONE",
+    "error": "Donnees temporelles manquantes",
+    "notes": "Erreur lors du traitement du message"
+  },
+  "test_summary": {
+    "decision": "ERROR",
+    "action": "NONE",
+    "ai_level": null,
+    "ai_score": null
+  }
+}
