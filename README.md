@@ -230,7 +230,6 @@ Validated through simulation and integration testing, the system is now ready fo
 
 **Maintainer:**  
 **Bouchehioua Yasmine** — 3rd Year Computer Science Student – Big Data Specialization
-
  [yasmine.bouchhiwa@isimsf.u-sfax.tn](mailto:yesmin.bouchhiwa@isims.usf.tn)  
  [https://github.com/Yesmin8/EPS-Guardian.git](https://github.com/Yesmin8/EPS-Guardian)  
  Supported by IEEE **AESS & IES Challenge 2025**
