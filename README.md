@@ -228,6 +228,25 @@ Validated through simulation and integration testing, the system is now ready fo
 
 ---
 
+## Environment Setup
+
+To run the EPS GUARDIAN project locally:
+
+```bash
+# Create and activate your virtual environment
+python -m venv venv
+venv\Scripts\activate   # (Windows)
+# or
+source venv/bin/activate   # (Linux/Mac)
+
+# Install all required dependencies
+pip install -r requirements.txt
+```
+
+Once installed, you can start the simulation or training from the `/src` directory.
+
+---
+
 **Maintainer:**  
 **Bouchehioua Yasmine** — 3rd Year Computer Science Student – Big Data Specialization<br>
  [yasmine.bouchhiwa@isimsf.u-sfax.tn](mailto:yasmine.bouchhiwa@isimsf.u-sfax.tn)<br>
