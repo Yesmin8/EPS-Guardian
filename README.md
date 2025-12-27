@@ -246,3 +246,8 @@ Once installed, you can start the simulation or training from the `/src` directo
 
 ---
 
+**Maintainer:**  
+**Bouchehioua Yasmine** — 3rd Year Computer Science Student – Big Data Specialization<br>
+ [yasmine.bouchhiwa@isimsf.u-sfax.tn](mailto:yasmine.bouchhiwa@isimsf.u-sfax.tn)<br>
+ [https://github.com/Yesmin8/EPS-Guardian](https://github.com/Yesmin8/EPS-Guardian)<br><br>
+Supported by IEEE **AESS & IES Challenge 2025**
